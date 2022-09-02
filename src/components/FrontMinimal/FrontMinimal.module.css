@@ -1,0 +1,10 @@
+.container {
+  background: linear-gradient(
+    120deg,
+    rgb(0, 0, 0) 45%,
+    rgb(37, 37, 37) 60%,
+
+    rgb(0, 0, 0) 100%
+  );
+  color: white;
+}

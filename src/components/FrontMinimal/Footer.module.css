@@ -1,0 +1,88 @@
+.container {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  position: relative;
+  width: 90%;
+  min-height: 130px;
+  max-height: 130px;
+  background-color: rgba(255, 255, 255, 0.144);
+  border-radius: 100px 100px 0 0;
+  border: solid 1px (255, 255, 255, 0.5);
+  backdrop-filter: blur(4px);
+  filter: drop-shadow(0 0 5px black);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+  z-index: 200;
+  max-width: 1200px;
+}
+.containerSub {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.containerSub div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 200px;
+  padding: 0 20px;
+  height: 100px;
+}
+.containerSub div h3 {
+  padding: 0;
+  margin: 0;
+  color: rgb(206, 170, 70);
+  font-weight: bolder;
+}
+.containerSub div p {
+  padding: 0;
+  margin: 0;
+  color: rgb(128, 128, 128);
+}
+.dino {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  top: -60px;
+  width: 140px;
+  max-width: 150px;
+  min-height: 200px;
+  border-radius: 20px;
+  background: linear-gradient(180deg, #ff5f02 20%, #ffc420 75%);
+  transform: rotate(10deg);
+  border: solid 5px rgb(94, 94, 94);
+  box-shadow: 0 0 5px black;
+}
+.dinoFront img {
+  width: 120px;
+}
+.contextImg {
+  background-color: rgb(94, 94, 94);
+  border-radius: 10px 10px 10px 10px;
+  position: relative;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  top: 15px;
+  font-size: 10px;
+  height: 50px;
+  width: 100%;
+}
+.contextImg img {
+  background-color: purple;
+  border: solid 2px #ff5f02;
+  border-radius: 100%;
+  width: 30px;
+}
+.contextImg h3 {
+  color: rgb(206, 206, 206);
+  margin: 10px;
+  font-weight: 100;
+  font-size: 15px;
+}

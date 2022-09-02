@@ -1,5 +1,11 @@
+import FrontMinimal from "./components/FrontMinimal/FrontMinimal";
+
 function App() {
-  return <div>hola</div>;
+  return (
+    <div>
+      <FrontMinimal></FrontMinimal>
+    </div>
+  );
 }
 
 export default App;
